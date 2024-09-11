@@ -1,0 +1,711 @@
+header{
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat-x; /*повторение по горизонтали*/
+	background-position: top center; /*позиция*/
+	min-height: 644px; /*это что бы картинка влезла*/
+	position: relative;
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+.top_line{
+	min-height: 97px; /*делаем высоту*/
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px; /*мы делаем серую полоску с помощью тени (потому что нужна прозрачная полоска а бордером прозрачно не сделаешь)*/
+	box-shadow:  rgba(255,255,255,.3) 0 0 0 1px; /*мы делаем серую полоску с помощью тени (потому что нужна прозрачная полоска а бордером прозрачно не сделаешь)*/
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+	padding-top: 22px;
+	
+}
+
+header div.top_adr{
+	padding-left: 60px;
+	background-image: url(../img/logo1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 26px;
+	padding-left: 50px;
+
+}
+
+header div.top_adr strong{
+	display: block;
+	color:#d12f22;
+	font-size: 33px;
+	text-transform: uppercase; /*делаем шрифт капсом*/
+	font-weight: bold;
+
+}
+
+header div.top_adr a{
+	color:#fff;
+	font-size: 20px;
+	text-transform: uppercase; /*делаем шрифт капсом*/
+	border-bottom: #fff solid 2px;
+	-webkit-transition: all .25s; /*делаем плавное изчезновение линии для border*/
+	-o-transition: all .25s;/*делаем плавное изчезновение линии для border*/
+	transition: all .25s;/*делаем плавное изчезновение линии для border*/
+}
+
+header div.top_adr a:hover{
+	text-decoration:none;
+	color:#fff;
+	font-size: 23px;
+	text-transform: uppercase; /*делаем шрифт капсом*/
+	border-bottom: transparent solid 2px;
+
+}
+
+header div.logo_wrap{
+	position: relative;
+	width: 240px;
+	margin: auto;
+}
+
+header div a.logo{
+	position: absolute; /*делаем так, что бы */
+	margin-top: -18px;
+}
+
+header div.ta_right{
+	background-image: none; /*убираем для контейнера справа справа значок*/
+	padding-left: 0;
+	text-align: right;
+
+}
+
+header div.ta_right span{
+	color: #fff;
+}
+/*___________________КНОПКИ ХЕДЕРА_____________________________________________________*/
+
+header h1{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 68px;
+	font-family: "BebasRegular";
+	text-shadow: 0 3px rgba(0,0,0,0.55);
+	text-transform: uppercase;
+}
+
+header div a.button{
+	display: inline-block;
+	background-color: #d12f22;
+	color: #fff;
+	text-transform: uppercase;
+	height: 50px;
+	line-height: 50px; 
+	vertical-align: middle;
+	padding: 0 25px;
+	font-size: 20px;
+	border-bottom: #ac160a 4px solid;
+}
+
+header div a.left{
+	margin-right: 20px;
+	line-height: 18px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/fotik.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+
+
+.buttons_top{
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
+
+header div a.button:hover{
+	background-color: #e64437;
+	text-decoration:none;
+}
+
+
+/*@@@@@@@@@@@@@@@@@@НАВИГАЦИОННОЕ МЕНЮ@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+nav {
+	background-color: #242424;
+	height: 70px;
+	border-bottom:  1px solid #383838;
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none; /*убираем маркеры*/
+	
+
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-transform: uppercase; /*делает текст капсом*/
+	color: #fff;
+	font-size: 18px;
+	padding: 0px 30px 0px 34px;
+	display: block; /*делаем блоком*/
+	line-height: 70px; /*делает текст посредине*/
+	border-left: 1px solid #383838;
+}
+
+
+
+
+nav ul li.one{
+	background-image: url(../img/znach1.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.two{
+	background-image: url(../img/znach2.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.three{
+	background-image: url(../img/znach3.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.fore{
+	background-image: url(../img/znach4.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.five{
+	background-image: url(../img/znach5.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.six{
+	background-image: url(../img/znach6.png);
+	background-repeat: no-repeat;
+	background-position: 9px 25px;
+}
+
+nav ul li.one a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach1.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav ul li.two a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach2.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav ul li.three a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach3.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav ul li.fore a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach4.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav ul li.five a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach5.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav ul li.six a:hover {
+	background-color: #050505;
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../img/znach6.png);
+	background-repeat: no-repeat;
+	background-position: 8px 25px;
+}
+
+nav div.ramka{
+	border: 3px solid #fff;
+	border-radius: 3px;
+	margin-top: 12px; 
+	padding: 3px 5px;
+	height: 50px;
+	line-height: 20px;
+
+}
+
+nav div.right{
+	display: inline-block; 
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+nav div.left {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+	padding-right: 9px; 
+}
+
+nav div.left span{
+	font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@ВЫЛАЗЯЩАЯ ХРЕНЬ ИЗ КРАСНЫХ КНОПОК@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.sam{
+	background-color: #191919;
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+section.sam img.imgleft{
+	position: center;
+}
+
+
+section.sam div.menu h2{
+	font-size:34px; 
+	color:#c9c9c9;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+
+section.sam div.litle{
+	padding: 0px;
+}
+
+
+
+section.sam div.menu h2 span.hol{
+	color: #d12f22;
+}
+
+section.sam div.menu h2 span.avto{
+	color: #fff;
+}
+
+
+section.sam div.menu div.ri{
+	padding-left: 45px;
+}
+
+
+.zag,.le,.ri{
+	padding: 0;
+}
+
+
+
+section.sam div.menu div.zag_le_ri{
+	padding: 70px 0px;
+	line-height: 40px;
+}
+
+
+/*___________________КНОПКИ ИЗ КОТОРЫХ ВЫЛАЗИТ МЕНЮ_____________________________________________________*/
+
+
+
+
+
+
+.mc_item_wrap{
+	border: #353535 1px solid;
+	border-radius: 2px;
+	
+}
+
+.mc_item_wrap{
+	
+	width: 163px;
+	display: inline-block;
+	text-align: center;
+}
+
+section.sam li.left{
+	margin-left: 25px;
+}
+
+.mc_item_wrap a.ssilka{
+	display: block;
+	color: #fff;
+	height: 130px;
+
+}
+
+.mc_item_wrap a span{
+	width: 90px;
+	height: 78px;
+	display: block;
+	background-image: url(../img/car1.png);
+	background-repeat: no-repeat;
+	margin: 25px auto 0px;
+	background-position: center center;
+
+}
+
+.mc_wrap{
+	text-align: center;
+	padding: 0px;
+	position: relative;
+}
+
+
+.mc_item h4{
+	font-weight: normal;
+	font-size: 14px;
+	margin: 10px 0px 12px 0px;
+	text-transform: uppercase;
+
+}
+
+.mc_item_wrap:hover{
+	background-color: #2a2a2a;
+}
+
+section.sam div.p_ri{
+	padding-right: 0px;
+}
+
+
+.mc_toggle{
+	background-color: #212121;
+	position: relative;
+	height: 25px;
+	cursor: pointer;
+	background-image: url(../img/gal_white.png);
+	background-repeat: no-repeat;
+	background-position: 72px 10px;
+	
+}
+
+.mc_item_wrap:hover .mc_toggle{
+	background-image: url(../img/gal_red.png);
+	background-color: #353535;
+}
+
+
+
+
+
+body .mc_wrap .mc_item_wrap ul{
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 15px 0;
+	list-style-type: none;
+	background-color: #353535;
+	font-size: 20px;
+	margin-top: 25px;
+	z-index: 10;
+	display: none;
+
+
+}
+
+.mc_item_wrap ul li{
+	display: inline-block;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+
+}
+
+.mc_item_wrap ul li a{
+	padding: 0 10px;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.mc_item_wrap ul li a:hover{
+	text-decoration: none;
+}
+
+
+.mc_wrap:hover .vilez{
+	display: block;
+}
+
+
+
+.mc_item_wrap a span.two{
+	background-image: url(../img/car2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+
+
+
+
+.mc_item_wrap a span.thre{
+	background-image: url(../img/car3.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mc_item_wrap a span.fore{
+	background-image: url(../img/car4.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mc_item_wrap a span.five{
+	background-image: url(../img/car5.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mc_item_wrap a span.six{
+	background-image: url(../img/car6.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+/*___________________КРАСНАЯ КНОПКА_____________________________________________________*/
+
+
+
+
+section.sam div a.button{
+	display: inline-block;
+	background-color: #d12f22;
+	color: #fff;
+	text-transform: uppercase;
+	height: 50px;
+	line-height: 50px; 
+	vertical-align: middle;
+	width: 100%;
+	font-size: 20px;
+	border-bottom: #ac160a 4px solid;
+	text-align: center;
+	margin: 50px 0 20px 0;
+
+}
+
+section.sam div a.button:hover{
+	background-color: #e64437;
+	text-decoration:none;
+}
+
+/*@@@@@@@@@@@@@@@@@ПРОФЕССИОНАЛЫ ВЫСОЧАЙШЕГО КЛАССА@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.prof{
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+section.prof img.imgleft{
+	position: center;
+}
+
+section.prof h2.second_zag{
+	font-size:34px; 
+	color:#050505;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+section.prof div.ri{
+	padding-left: 45px;
+}
+
+
+.zagol,.le,.ri{
+	padding: 0;
+}
+
+
+section.prof div.zagol_le_ri{
+	padding: 40px 0px 10px 0px;
+	line-height: 40px;
+}
+
+
+section.prof div.tekst p{
+	text-align: center;
+	color: #050505;
+	font-size: 18px;
+}
+
+/*@@@@@@@@@@@@@@@@@@6 ФОТОК@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.bigest{
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+	background-color: #d6d6d6;
+
+}
+
+section.bigest div.cont{
+	padding: 40px 15px;
+}
+
+section.bigest div.cont img{
+	border-top: 9px solid #ac160a;
+}
+
+section.bigest div.cont p{
+	text-align: center;
+	font-size: 16px;
+	color:#050505;
+}
+
+/*@@@@@@@@@@@@@@@@БЛОК С ФОТО ИЗ МОЗАЙКИ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.mozai{
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+section.mozai h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #050505;
+
+}
+
+section.mozai div a.button{
+	display: inline-block;
+	background-color: #d12f22;
+	color: #fff;
+	text-transform: uppercase;
+	height: 50px;
+	line-height: 50px; 
+	vertical-align: middle;
+	width: 100%;
+	font-size: 14px;
+	border-bottom: #ac160a 4px solid;
+	text-align: center;
+
+}
+
+section.mozai div a.button:hover{
+	background-color: #e64437;
+	text-decoration:none;
+}
+
+section.mozai div.pad{
+	padding: 45px 0px;
+}
+
+section.mozai div.photo{
+	padding-top: 15px;
+}
+
+section.mozai img{
+	width: 365px;
+	height: 249px;
+}
+
+
+section.mozai p{
+	margin: 0px;
+	font-size: 16px;
+}
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@ФУТЕР@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{
+	background-color: #2a2a2a;
+	font-family: "BebasRegular";
+	font-family: "BebasBold";
+}
+
+
+footer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none; /*убираем маркеры*/
+
+
+}
+
+footer ul li{
+	float: left;
+}
+
+
+footer ul li a{
+	text-transform: uppercase; /*делает текст капсом*/
+	color: #fff;
+	font-size: 12px;
+	padding-right: 13px;
+	display: block; /*делаем блоком*/
+	line-height: 70px; /*делает текст посредине*/
+	text-decoration: underline
+}
+
+footer ul li a:hover{
+	color: #fff;
+}
+
+footer div.avtohall{
+	text-transform: uppercase; /*делает текст капсом*/
+	color: #fff;
+	font-size: 12px;
+	padding-right: 13px;
+	display: block; /*делаем блоком*/
+	line-height: 70px; /*делает текст посредине*/
+
+}
+
+footer div.foot{
+	background-image: url(../img/form_foot.png); 
+	background-repeat: no-repeat;
+	background-position: center right;
+}
