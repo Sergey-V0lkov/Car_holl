@@ -2,7 +2,8 @@
 
 Скачиваем архив с githab
 
-![Screenshot_1](https://github.com/user-attachments/assets/49f58a7c-5ec5-4c93-b52a-178621ed32e7)
+![Screenshot_1](https://github.com/user-attachments/assets/d3bd3455-7a05-44ed-8463-7ac36c8aa117)
+
 
 
  
@@ -10,22 +11,25 @@
 
 Разархивируем 
 
-![Screenshot_2](https://github.com/user-attachments/assets/dc88b974-9314-475d-85bd-a1c142f3c979)
+![Screenshot_2](https://github.com/user-attachments/assets/5fc46162-9cb3-4c05-a77d-0c05faf21157)
+
 
 
 ## Шаг 3
 
 В папке с проектом находим файл index.html и нажимаем на него 2 раза 
 
-![Screenshot_3](https://github.com/user-attachments/assets/022aa261-8026-4a0d-821f-96bffc1f9953)
+![Screenshot_3](https://github.com/user-attachments/assets/9a9916e3-a8cc-4327-8a51-388a0f381f38)
+
 
 
  
 ## Шаг 4
 
-Готово, в браузере откроется проект Austera
+Готово, в браузере откроется проект Car_holl
 
-![Screenshot_4](https://github.com/user-attachments/assets/ffb00171-e44d-4aa0-b63b-e39a61cbbffd)
+
+![Screenshot_4](https://github.com/user-attachments/assets/6ed27301-e2ee-4bed-9009-219a19ac1171)
 
 
 
