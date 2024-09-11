@@ -1,5 +1,5 @@
 
- # :rocket::rocket::rocket: Проект по верстке Car_holl :blue_car::oncoming_automobile::red_car:
+ # :rocket::rocket::rocket: Проект по верстке Car_holl :truck::oncoming_automobile::red_car:
 
 ![ScreenRecorderProject1](https://github.com/user-attachments/assets/ba1cabef-1ea2-4ccb-ba53-22116bb73248)
 
