@@ -1,8 +1,9 @@
 
  # :truck: :oncoming_automobile: :red_car: Проект по верстке Car_holl :truck: :oncoming_automobile: :red_car:
 
-![ScreenRecorderProject1](https://github.com/user-attachments/assets/ba1cabef-1ea2-4ccb-ba53-22116bb73248)
 
+
+![ScreenRecorderProject1_1](https://github.com/user-attachments/assets/d846f761-f9c6-40a5-8cec-67cf3d62cff8)
 
 
 Верстка сайта которая подойдет любому владельцу автосалона! :oncoming_taxi: :articulated_lorry:
